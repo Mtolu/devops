@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+body
+{
+    background : rgb(76, 119, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: azure;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.pageview
+{
+    position: relative;
+    padding: 50px;
+}
+.container h1
+{
+    color: black;
+    font-size: 3em;
+    margin: 1px;
+    text-transform: none;
+    text-align: normal;
+    font-weight: 600;
+    line-height: 1em;       
+}
+
+.container span
+{
+    color: darkgreen;
+    font-size: 1.7em;
+    margin: 1px;
+    text-transform: none;
+    text-align: none;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+.summary
+{
+    margin-bottom: 50;
+}
+.summary:last-child
+{
+    margin-bottom: 0;    
+}
+.title
+{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 1px;
+    margin-top: 1%;
+}
+.summaryline
+{
+    display: block;
+    border: 0;
+    border-top: 3px solid black;
+    margin: 0;
+    padding: 0;    
+}
+p
+{
+    color: black;
+    margin: 1px;
+    align-items: center;
+    text-align: justify;
+}
+.service
+{
+    margin-bottom: 40;
+}
+.service:last-child
+{
+    margin-bottom: 0;    
+}
+.title2
+{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 1px;
+    margin-top: 1%;
+}
+.serviceline
+{
+    display: block;
+    border: 0;
+    border-top: 3px solid black;
+    margin: 0;
+    padding: 0;    
+}
+.serviceline div
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);    
+}
+
+.serviceline div 
+{
+    list-style: none;
+    color: black;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 0;
+    text-align: left;
+    font-size: 1em;
+    margin-top: 1%;
+}
+.serviceline div .fa
+{
+    color: #03a9f4;
+    font-size: 11px;
+    width: 15px;
+    
+    margin: 0;
+}
+.serviceline2
+{
+    display: block;
+    border: 0;
+    border-top: 3px solid black;
+    margin: 0;
+    padding: 0;
+    margin-top: 2%;   
+}
+.field
+{
+    margin-bottom: 10px;
+}
+.field label
+{
+    display:block;
+    font-size: 15px;
+    color: #777;
+}
+.field input
+{
+    display: block;
+    min-width: 250px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+input[type="submit"]
+{
+    display: block;
+    padding: 6px 30px;
+    background-color: #4460aa;
+    color: #fff;
+    border: none;
+}
